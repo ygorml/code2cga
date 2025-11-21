@@ -1,0 +1,46 @@
+# Diretórios internos que não devem ser versionados
+inspecao/
+analisador/          # ambiente virtual
+explicabilidade/
+storage/
+storage/analise.db
+grafo_gerado/
+backup/
+
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Cache do Flet (Web e Desktop)
+.flet/
+flet_build/
+web_build/           # caso use flet build web
+assets/build/        # dependendo da estrutura
+build/web/           # comum em projetos flet web
+lib/
+
+# Cache de navegadores localmente (pode acontecer em dev)
+*.wasm
+*.map
+
+# Arquivos temporários do sistema / editor
+log/
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+erros_log.json
+
+# Ignorar arquivos :Zone.Identifier
+**/*.Identifier
+
+# VSCode
+.vscode/
