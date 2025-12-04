@@ -1,4 +1,4 @@
-# Agente Analista de Código v2.0 (Simplificado com Sistemas Avançados)
+# Agente Analista de Código v1.0 (Simplificado com Sistemas Avançados)
 
 Uma aplicação desktop em Python para análise de código-fonte usando Large Language Models (LLMs) através do Ollama. A aplicação foi completamente refatorada e simplificada em 2025, mantendo 100% da funcionalidade original com uma arquitetura muito mais limpa e mantenível, além de sistemas avançados de checkpoint, pausa automática e timing preciso.
 
@@ -300,4 +300,5 @@ MIT License - Veja o arquivo LICENSE para detalhes.
 Para suporte e dúvidas:
 - Abra uma issue no GitHub
 - Consulte a documentação em `docs/`
+
 - Verifique os logs em `log/app.log`
