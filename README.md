@@ -139,6 +139,10 @@ ollama pull codellama
 flet run --web main.py
 ```
 
+6. Dentro do arquivo storage/users.json, é necessário inserir o hash SHA-256 para a senha que você desejar acessar com o usuário "mestre".
+Exemplo de SHA-256 para o login (usuário "mestre", senha "mestre"):
+SHA-256 correspondente para a senha "mestre": `863d84a7041da19852d2a33098dcda868cf000f6b2b07c1f7c12560e0a7a0ec3`.
+
 ## Como Usar
 
 1. **Selecione os Arquivos**: Na aba "Arquivos", selecione os arquivos de código-fonte que deseja analisar
@@ -302,4 +306,5 @@ Para suporte e dúvidas:
 - Consulte a documentação em `docs/`
 
 - Verifique os logs em `log/app.log`
+
 
