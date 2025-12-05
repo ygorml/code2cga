@@ -136,7 +136,7 @@ ollama pull codellama
 
 5. Execute a aplicação:
 ```bash
-python main.py
+flet run --web main.py
 ```
 
 ## Como Usar
@@ -302,3 +302,4 @@ Para suporte e dúvidas:
 - Consulte a documentação em `docs/`
 
 - Verifique os logs em `log/app.log`
+
